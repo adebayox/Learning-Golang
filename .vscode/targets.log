@@ -6,9 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
 
-# Make data base, printed on Fri Aug 26 13:07:19 2022
+# Make data base, printed on Mon Aug 29 06:58:50 2022
 
 # Variables
 
@@ -45,11 +44,13 @@ PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
 # environment
 GOPATH = /Users/mac/go
 # environment
+LaunchInstanceID = 03F9640E-CBBA-43C9-BC7E-B9E5AC5B07EA
+# environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.BIToefyP1I/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.TWW5RGRUzm/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -122,6 +123,8 @@ MAKEFILES :=
 <F = $(notdir $<)
 # environment
 LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a8
 # automatic
 ^F = $(notdir $^)
 # default
@@ -133,9 +136,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2661
+VSCODE_PID = 350
 # variable set hash-table stats:
-# Load=61/1024=6%, Rehash=0, Collisions=2/85=2%
+# Load=63/1024=6%, Rehash=0, Collisions=2/87=2%
 
 # Pattern-specific Variable Values
 
@@ -143,9 +146,9 @@ VSCODE_PID = 2661
 
 # Directories
 
-# . (device 16777220, inode 18289175): 11 files, no impossibilities.
+# . (device 16777220, inode 18289175): 12 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -264,7 +267,7 @@ migratedown:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Aug 26 13:07:19 2022
+# Finished Make data base on Mon Aug 29 06:58:50 2022
 
  
 make: *** No rule to make target `all'.  Stop.
