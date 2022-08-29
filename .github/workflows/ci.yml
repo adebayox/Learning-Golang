@@ -2,9 +2,9 @@ name: ci-test
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ master ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ master ]
 
 jobs:
 
@@ -19,14 +19,12 @@ jobs:
           POSTGRES_USER: root
           POSTGRES_PASSWORD: secret
           POSTGRES_DB: simple_bank
-
-        options: >-
+         options: >-
           --health-cmd pg_isready
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
-
-    steps:
+     steps:
 
     - name: Set up Go 1.x
     uses: actions/setup-go@v2
@@ -40,7 +38,7 @@ jobs:
     -name: Install golang-migrate
      run: |
       curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz | tar xvz
-      sudo mv migrate.linux-amd64 /usr/bin/
+      sudo mv migrate.linux-amd64 /usr/bin/migrate
       which migrate
 
     -name: Run migrations
