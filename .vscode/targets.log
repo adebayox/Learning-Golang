@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Mon Aug 29 06:58:50 2022
+# Make data base, printed on Mon Aug 29 20:18:41 2022
 
 # Variables
 
@@ -22,7 +22,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/mac/Documents/golang/simplebank
+CURDIR := /Users/mac/Learning-Golang
 # makefile
 SHELL = /bin/sh
 # environment
@@ -54,7 +54,7 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.TWW5RGRUzm/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-PWD = /Users/mac/Documents/golang/simplebank
+PWD = /Users/mac/Learning-Golang
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -68,7 +68,7 @@ VSCODE_CODE_CACHE_PATH = /Users/mac/Library/Application Support/Code/CachedData/
 # environment
 LOGNAME = mac
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -146,9 +146,9 @@ VSCODE_PID = 350
 
 # Directories
 
-# . (device 16777220, inode 18289175): 12 files, no impossibilities.
+# . (device 16777220, inode 26302756): 15 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -206,7 +206,7 @@ test:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-09 21:30:08
+#  Last modified 2022-08-29 20:18:11
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -267,7 +267,7 @@ migratedown:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Aug 29 06:58:50 2022
+# Finished Make data base on Mon Aug 29 20:18:41 2022
 
  
 make: *** No rule to make target `all'.  Stop.
